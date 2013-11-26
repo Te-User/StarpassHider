@@ -1,0 +1,70 @@
+body
+{
+    margin: 50px;
+}
+#CallContent
+{
+    position: relative;
+    font-family: Calibri;
+}
+#onglet
+{
+    border-radius: 5px 5px 0px 0px;
+    background-color: #efebe5;
+    padding: 6px;
+}
+ 
+#ongletactive
+{
+    border-radius: 5px 5px 0px 0px;
+    background-color: #dbd1c2;
+    padding: 7px;
+    font-weight: bold;
+}
+#ongletactive a 
+{
+    text-decoration: none;
+    color: black;
+}
+#onglet a 
+{
+    text-decoration: none;
+    color: black;
+}
+#content
+{
+    text-align: center;
+    margin-top: 6px;
+    background-color: #dbd1c2;
+    padding: 10px;
+    border-radius: 0px 5px 5px 5px;
+    width: 380px;
+}
+ 
+#content input
+{
+    background-color: white;
+    border: 1px solid #efebe5;
+    font-family: Calibri;
+}
+#content input:hover
+{
+    border: 1px solid #e9c071;
+}
+#content #send 
+{
+    height: 28px;
+}
+#content #send:hover
+{
+    height: 28px;
+    background-color: #efebe5;
+    border: 2px solid #e9c071;
+}
+ 
+#actuPay
+{
+    position: absolute;
+    top: 6px;
+    left: 130px;
+}
