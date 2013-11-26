@@ -6,8 +6,8 @@
     }
     class Starpass
     {
-        public $IDP     = ;        // ID de votre compte STARPASS.
-        public $IDD     = ;       // ID de votre document STARPASS.
+        public $IDP     = 123456;        // ID de votre compte STARPASS.
+        public $IDD     = 123456;       // ID de votre document STARPASS.
         public $URL_D   = 'ok.php';     // URL vers la page protéger.
         public $URL_E   = 'error.php';  // URL vers la page d'erreur.
          
